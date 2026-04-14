@@ -1,4 +1,24 @@
 # npx skills add https://github.com/kroegha/kali-docker-pentesting --skill kali-docker-pentesting
+
+# 🚀 Cómo Usar (Quick Start)
+
+Este repositorio es una **Skill para Agentes IA** (como Gemini Code o Claude). Permite ejecutar herramientas de pentesting de forma ultra eficiente.
+
+### 🤖 Con un Agente IA (Gemini/Claude)
+Si estás usando este proyecto con un agente, simplemente dale órdenes en lenguaje natural. **Yo me encargo del resto.**
+- *"Escaneá la IP 10.0.4.125 con nmap buscando puertos y versiones."*
+- *"Corré un nikto contra http://10.0.4.125 para buscar vulnerabilidades web."*
+- *"Usá gobuster para encontrar directorios en 10.0.4.125."*
+
+### 💻 Uso Manual (Terminal)
+Si preferís tirar los comandos vos, asegurate de tener el contenedor corriendo (`docker-compose up -d`) y ejecutá:
+```bash
+docker exec kali-pentest [herramienta] [opciones]
+```
+*Ejemplo:* `docker exec kali-pentest nmap -sV 10.0.4.125`
+
+---
+
 # Herramientas en kali-docker-pentesting
 
 Este documento contiene la lista de herramientas incluidas en el contenedor de Kali Docker para pentesting, organizadas por categorías.
