@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "kali-docker-pentesting": {
+      "source": "kroegha/kali-docker-pentesting",
+      "sourceType": "github",
+      "computedHash": "bb1bd5478fae10e77c3ef3fe88f1804a2f4fec77d524134929c72ecd23501e97"
+    }
+  }
+}
